@@ -5,8 +5,10 @@ import cors from "cors";
 const app = express();
 const PORT = 3001;
 
-const CLIENT_ID = "orangeshadow-api-client";
-const CLIENT_SECRET = "VjmMAwhQC0yX1yvsc0oxzP2E2uXmowsm";
+
+//from opensky api
+const CLIENT_ID = "CLIENTID";
+const CLIENT_SECRET = "CLIENTSECRET";
 
 let oskToken = "";
 let oskExpires = 0;
